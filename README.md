@@ -11,7 +11,7 @@ jobs:
   setup_behave:
     name: "Build and Run Behave"
     runs-on: ubuntu-20.04
-    if: github.repository_owner == 'bcgov'
+    if: github.repository_owner == 'TheMonarch'
     steps:
       - uses: actions/checkout@v2
         with:
